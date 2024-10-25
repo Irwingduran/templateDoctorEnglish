@@ -63,6 +63,7 @@ const Navbar = () => {
               ))
             }
             {/* Botón con la bandera de Estados Unidos */}
+             <a href='https://templatedocreact1.vercel.app'>
             <button className='text-gray900 hover:bg-brandPrimary hover:text-white px-4 py-2 rounded flex items-center'>
               <img 
                 src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" 
@@ -72,7 +73,9 @@ const Navbar = () => {
               />
               EN
             </button>
+            <a/>
           </ul>
+           
 
           {/* menu btn for only mobile responsive design */}
           <div className='md:hidden'>
@@ -108,6 +111,7 @@ const Navbar = () => {
             ))
           }
           {/* Botón con la bandera de Estados Unidos para versión móvil */}
+          <a href='https://templatedocreact1.vercel.app'>
           <button className='w-full bg-gray-100 text-gray900 hover:bg-brandPrimary hover:text-white px-4 py-2 rounded flex items-center justify-center'>
             <img 
               src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" 
@@ -117,6 +121,7 @@ const Navbar = () => {
             />
             English
           </button>
+             </a>
         </div>
       </nav>
     </header>
