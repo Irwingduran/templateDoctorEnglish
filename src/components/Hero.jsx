@@ -12,7 +12,7 @@ const Hero = () => {
             <Carousel className='w-full mx-auto'>
                 <div className='my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12 '>
                     <div>
-                        <img src={Blender3} alt="sliderImg" />
+                        <img src={Blender3} alt="sliderImg" width='400px' />
                     </div>
                     { /* hero text  */ }
                     <div className='md:w-1/2 max-w-screen-2xl'>
@@ -26,7 +26,7 @@ const Hero = () => {
 
                 <div className='my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12'>
                     <div>
-                        <img src={Blender1} alt="sliderImg" />
+                        <img src={Blender1} alt="sliderImg" width='400px'  />
                     </div>
                     { /* hero text  */ }
                     <div className='md:w-1/2'>
@@ -40,7 +40,7 @@ const Hero = () => {
 
                 <div className='my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12'>
                     <div>
-                        <img src={Blender2} alt="sliderImg" />
+                        <img src={Blender2} alt="sliderImg" width='400px' />
                     </div>
                     { /* hero text  */ }
                     <div className='md:w-1/2'>

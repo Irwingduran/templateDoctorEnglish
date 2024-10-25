@@ -63,7 +63,7 @@ const Navbar = () => {
               ))
             }
             {/* Botón con la bandera de Estados Unidos */}
-             <a href='https://templatedocreact1.vercel.app'>
+            <a href='https://templatedocreact1.vercel.app'>
             <button className='text-gray900 hover:bg-brandPrimary hover:text-white px-4 py-2 rounded flex items-center'>
               <img 
                 src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" 
@@ -73,7 +73,7 @@ const Navbar = () => {
               />
               EN
             </button>
-            <a/>
+            </a>
           </ul>
            
 
