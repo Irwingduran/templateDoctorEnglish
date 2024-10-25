@@ -30,11 +30,11 @@ const Navbar = () => {
 
   // navitems array
   const navItems = [
-    { link: "Home", path: "home" },
-    { link: "Service", path: "service" },
-    { link: "About", path: "about" },
+    { link: "Inicio", path: "home" },
+    { link: "Servicio", path: "service" },
+    { link: "Sobre Mí", path: "about" },
     { link: "Blog", path: "blog" },
-    { link: "Contact", path: "contact" },
+    { link: "Contacto", path: "contact" },
   ];
 
   return (
@@ -63,14 +63,14 @@ const Navbar = () => {
               ))
             }
             {/* Botón con la bandera de Estados Unidos */}
-            <button className='bg-gray-100 text-gray900 hover:bg-brandPrimary hover:text-white px-4 py-2 rounded flex items-center'>
+            <button className='text-gray900 hover:bg-brandPrimary hover:text-white px-4 py-2 rounded flex items-center'>
               <img 
                 src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" 
                 alt="Bandera de Estados Unidos" 
                 width="20" 
                 className="mr-2"
               />
-              Botón
+              EN
             </button>
           </ul>
 
@@ -115,7 +115,7 @@ const Navbar = () => {
               width="20" 
               className="mr-2"
             />
-            Botón
+            English
           </button>
         </div>
       </nav>
