@@ -35,7 +35,7 @@ const Navbar = () => {
     { link: "About", path: "about" },
     { link: "Blog", path: "blog" },
     { link: "Contact", path: "contact" },
-  ]
+  ];
 
   return (
     <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
@@ -47,7 +47,7 @@ const Navbar = () => {
           </a>
 
           {/* nav items for large devices */}
-          <ul className='md:flex space-x-12 hidden mx-12'>
+          <ul className='md:flex space-x-12 hidden mx-12 items-center'>
             {
               navItems.map(({ link, path }) => (
                 <Link 
@@ -62,6 +62,16 @@ const Navbar = () => {
                 </Link>
               ))
             }
+            {/* Botón con la bandera de Estados Unidos */}
+            <button className='bg-gray-100 text-gray900 hover:bg-brandPrimary hover:text-white px-4 py-2 rounded flex items-center'>
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" 
+                alt="Bandera de Estados Unidos" 
+                width="20" 
+                className="mr-2"
+              />
+              Botón
+            </button>
           </ul>
 
           {/* menu btn for only mobile responsive design */}
@@ -97,6 +107,16 @@ const Navbar = () => {
               </Link>
             ))
           }
+          {/* Botón con la bandera de Estados Unidos para versión móvil */}
+          <button className='w-full bg-gray-100 text-gray900 hover:bg-brandPrimary hover:text-white px-4 py-2 rounded flex items-center justify-center'>
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" 
+              alt="Bandera de Estados Unidos" 
+              width="20" 
+              className="mr-2"
+            />
+            Botón
+          </button>
         </div>
       </nav>
     </header>

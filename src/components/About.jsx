@@ -10,13 +10,13 @@ const About = () => {
 
   const modalContent = (
     <div>
-      <h2 className="text-2xl font-bold mb-4">About</h2>
+      <h2 className="text-2xl font-bold mb-4">Sobre mí</h2>
       <p>
-      In the field of modern urology, few names resonate as strongly as that of Dr. Bruno, founder of the Prostate and Urinary Tract Center in Puebla, Mexico. 
-        Recognized for his expertise and skill in prostate laser surgery on an international level. 
-        Dr. Bruno has adopted and perfected this cutting-edge technology, being recognized in Latin America by Forbes Mexico magazine. 
-        His mastery of the technology allows him to provide his patients with first class care at a decent price and with exceptional results. 
-        He receives patients from all over Mexico and other countries such as the United States, Ecuador, Colombia, Brazil, Guatemala, Panama, among others in Central America.
+        En el ámbito de la urología moderna, pocos nombres resuenan con tanta fuerza como el del Dr. Bruno, fundador del Centro de Próstata y Vías Urinarias en Puebla, México. 
+        Reconocido por su experiencia y destreza en la cirugía láser de próstata a nivel internacional. 
+        El Dr. Bruno ha adoptado y perfeccionado esta tecnología de vanguardia, siendo reconocido en Latinoamérica por la revista Forbes México. 
+        Su dominio de la tecnología le permite proporcionar a sus pacientes una atención de primera clase a un precio digno y con resultados excepcionales. 
+        Recibe pacientes de todo México y de otros países como Estados Unidos, Ecuador, Colombia, Brasil, Guatemala, Panamá, entre otros de Centroamérica.
       </p>
     </div>
   );
@@ -25,18 +25,18 @@ const About = () => {
     <div>
       {/*  about text  */}
       <div className='px-4 lg:px-14 max-w-screen-2x1 mx-auto my-8' id='about'>
-        <h2 className='text-4xl text-neutralDGrey font-semibold mb-2 text-center'>About</h2>
+        <h2 className='text-4xl text-neutralDGrey font-semibold mb-2 text-center'>Sobre Mí</h2>
         <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12'>
           <div>
             <img src={aboutImg} width="600px" alt="" />
           </div>
           <div className='md:w-3/4 mx-auto'>
-            <h2 className='text-4x1 text-neutralDGrey font-semibold mb-4 md:w-4/5'>Dr. Bruno: International Expert in Prostate Laser Surgery (HoLEP)</h2>
+            <h2 className='text-4x1 text-neutralDGrey font-semibold mb-4 md:w-4/5'>El Dr. Bruno: Experto Internacional en Cirugía Láser de Próstata (HoLEP)</h2>
             <p className='md:w-3/4 text-sm text-neutralDGrey mb-8'>
-            In the field of modern urology, few names resonate as strongly as that of Dr. Bruno, founder of the Prostate and Urinary Tract Center in Puebla, Mexico. 
-            Recognized for his expertise and skill in prostate laser surgery on an international level.
+              En el ámbito de la urología moderna, pocos nombres resuenan con tanta fuerza como el del Dr. Bruno, fundador del Centro de Próstata y Vías Urinarias de Puebla, México. 
+              Reconocido por su experiencia y destreza en la cirugía láser de próstata a nivel internacional.
             </p>
-            <button className='btn-primary' onClick={openModal}>See more</button>
+            <button className='btn-primary' onClick={openModal}>Ver más</button>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@ const About = () => {
           <div className='md:w-1/2'>
           
             <h2 className='text-4xl text-neutralDGrey font-semibold mb-4 md:w-2/3'>
-            Trajectory
+              Trayectoría
             </h2>
             <div className='flex items-center gap-4'>
                    <img src="/trash/tec.png" width="40px" alt="" /> 
